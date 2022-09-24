@@ -13,7 +13,9 @@ app.get("/FitnessTv",function(rq,res){
 app.get("/MentalWellnessTv",function(rq,res){
     res.sendFile(__dirname+"/welltv.html")
 });
-
+app.get("/BMIcalc",function(rq,res){
+    res.sendFile(__dirname+"/bmi.html")
+});
 app.listen(3000, function(){
 
 })
