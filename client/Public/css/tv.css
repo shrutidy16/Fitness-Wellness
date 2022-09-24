@@ -1,8 +1,8 @@
 body {
-  background-image: url("https://images.wallpaperscraft.com/image/single/sky_sunset_gradient_170507_2560x1440.jpg");
+  background-image: url("https://thumbs.dreamstime.com/b/sunset-background-sky-soft-blur-pastel-colored-clouds-gradient-cloud-beach-resort-nature-sunrise-peaceful-m-157264800.jpg");
   background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+  background-size: cover;
     width: 100%;
     height: 100%;
 
@@ -14,6 +14,7 @@ body {
     position: relative;
     width: 700px;
     height: 400px;
+    right:80px;
     margin: 100px auto 0 auto;
     border-radius: 10px;
     background: rgba(133, 121, 105, 1);
