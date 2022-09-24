@@ -10,6 +10,9 @@ app.get("/", function(req,res){
 app.get("/FitnessTv",function(rq,res){
     res.sendFile(__dirname+"/tv.html")
 });
+app.get("/MentalWellnessTv",function(rq,res){
+    res.sendFile(__dirname+"/welltv.html")
+});
 
 app.listen(3000, function(){
 
