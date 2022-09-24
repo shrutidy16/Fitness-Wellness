@@ -1,9 +1,14 @@
 body {
-    background-color: #F5F5DD;
+  background-image: url("https://thumbs.dreamstime.com/b/sunset-background-sky-soft-blur-pastel-colored-clouds-gradient-cloud-beach-resort-nature-sunrise-peaceful-m-157264800.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
   }
   
   .tv {
     position: relative;
+    right:80px;
     width: 700px;
     height: 400px;
     margin: 100px auto 0 auto;
