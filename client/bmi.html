@@ -5,22 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BMI Calculator</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
    
 </head>
 <body>
+     <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Navbar brand -->
+      <a class="navbar-brand text-dark" href="#">StayFit</a>
+  
+      <!-- Toggle button -->
+    <button
+    class="navbar-toggler"
+    type="button"
+    data-mdb-toggle="collapse"
+    data-mdb-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <i class="fa fa-bars"></i>
+  </button>
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Left links -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-dark" aria-current="page" href="/FitnessTv">Fitness Tv</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark"href="/MentalWellnessTv">Mental wellness Tv</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-dark  "href="#">Hangout</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark  "href="/BMIcalc">BMI Calculator</a>
+          </li>
+        </ul>
+        <!-- Left links -->
+      </div>
+      <!-- Collapsible wrapper -->
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
+  
+           
+    </div>
     <div class="contain">
         <div class = "rect">
           <div class = "header">
           <h1>BMI Calculator</h1>
           </div>
         <div class = "option">
-          <a href = "index.html">
+          <a href = "bmi.html">
           <button class = "buttons" id = "buttonp"> Standard </button></a>
-          <a href = "meteric.html"><button class = "buttons" id = "buttonm"> Meteric </button></a>
+          <a href = "bmi2.html"><button class = "buttons" id = "buttonm"> Meteric </button></a>
         </div>
           
           <div class = "calculator">
@@ -54,6 +101,6 @@
           </div>
           
       </div>
-      <script src="script.js"></script>
+      <script src="/js/bmi.js"></script>
 </body>
 </html>
