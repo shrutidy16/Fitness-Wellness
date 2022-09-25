@@ -16,6 +16,9 @@ app.get("/MentalWellnessTv",function(rq,res){
 app.get("/BMIcalc",function(rq,res){
     res.sendFile(__dirname+"/bmi.html")
 });
+app.get("/BMIcalcMetric",function(rq,res){
+    res.sendFile(__dirname+"/bmi2.html")
+});
 app.listen(3000, function(){
 
 })
