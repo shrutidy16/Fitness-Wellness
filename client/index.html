@@ -6,16 +6,18 @@
         <title>Fitness and wellness</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
         <link href="./resources/sunset.mp4">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css"rel="stylesheet"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
         
         <style>
             #myVideo {
   width: 100%; 
   height: 100%;
-  position: absolute;
+  right: 0;
+  bottom: 0;
+  position: fixed;
   object-fit: cover;
   z-index: 0;
 }
@@ -24,6 +26,29 @@
     width: 100%;
 }
 
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
         </style>
     </head>
 
@@ -34,14 +59,17 @@
 <div id="home"> 
     <video autoplay muted loop id="myVideo">
         <source src="/video/sunset.mp4" type="video/mp4" />
+        
+             
       </video>
+     
       
     <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong">
     <!-- Container wrapper -->
     <div class="container-fluid">
       <!-- Navbar brand -->
-      <a class="navbar-brand text-dark" href="#">StayFit</a>
+      <a class="navbar-brand text-dark" href="/">StayFit</a>
   
       <!-- Toggle button -->
     <button
@@ -68,11 +96,12 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link text-dark  "href="#">Hangout</a>
+            <a class="nav-link text-dark  "href="/hangout">Hangout</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-dark  "href="/BMIcalc">BMI Calculator</a>
           </li>
+
         </ul>
         <!-- Left links -->
       </div>
@@ -81,10 +110,25 @@
     <!-- Container wrapper -->
   </nav>
   <!-- Navbar -->
-  
-           
+      
     </div>
+    <div class="content">
+      <h1>Stay fit and Happy</h1>
+      <p>People often say that Motivation doesn't last. Well, Neither does bathing, that's why we recommend it daily.</p>
+      <p>Click on the button below to receive daily reminder of motivation.</p>
+      <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSeFXxP-V_ZSfGhzzK4NNyIWPG7yFsK4UE4O5pIGBd-TBAk_Mw/viewform?usp=pp_url"
+      >
+      <button id="myBtn">Get a Reminder</button></a>
+    </div>
+    
+    <script>
+    var video = document.getElementById("myVideo");
+    var btn = document.getElementById("myBtn");
+    
+    
+    </script>
           <script>var video = document.getElementById("myVideo");</script>
+          
           <script
   type="text/javascript"
   src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"

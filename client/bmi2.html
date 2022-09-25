@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="/css/bmi.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css"rel="stylesheet"/>
+        <style>
+         
+#home {
+  height: 100%;
+  width: 100%;
+  background-color: #F2AAAA;
+}
+
+      </style>  
+   
+</head>
+<body>
+  <div id="home"> 
+      
+        
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Navbar brand -->
+      <a class="navbar-brand text-dark" href="/">StayFit</a>
+  
+      <!-- Toggle button -->
+    <button
+    class="navbar-toggler"
+    type="button"
+    data-mdb-toggle="collapse"
+    data-mdb-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <i class="fa fa-bars"></i>
+  </button>
+  
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Left links -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-dark" aria-current="page" href="/FitnessTv">Fitness Tv</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark"href="/MentalWellnessTv">Mental wellness Tv</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text-dark  "href="/hangout">Hangout</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark  "href="/BMIcalc">BMI Calculator</a>
+          </li>
+        </ul>
+        <!-- Left links -->
+      </div>
+      <!-- Collapsible wrapper -->
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
+  
+           
+    </div>
+          
+    <div class="contain">
+        <div class = "rect">
+          <div class = "header">
+          <h1>BMI Calculator</h1>
+          </div>
+          <div class = "option">
+            <a href = "/BMIcalc">
+            <button class = "buttons" id = "buttonp"> Standard </button></a>
+            <a href = "/BMIcalcMetric"><button class = "buttons" id = "buttonm"> Meteric </button></a>
+          </div>
+            
+          
+          <div class = "calculator">
+            <div class = "calculatorItem">
+              
+              <label for="height"> Height(m): </label>
+              <input type="text" id="height" maxlength="4" size="4" >
+              <br>
+              <br>
+              <div class="calculatorItem">
+              <label for="weight"> Weight(kg):</label>
+              <input type="text" id="weight" maxlength="4" size="4">
+              </div>
+            </div>
+            <br>
+            <br>
+            <div class ="cateogory">
+                <h2>BMI Categories:</h2>
+                <h4>Underweight = <18.5</h4>
+                <h4>l weight = 18.5–24.9</h4>
+                <h4> Overweight = 25–29.9</h4>
+                <h4> Obesity = BMI of 30 or greater</h4>
+                
+              </div>
+            </div>
+      <div class = "computebutton">
+        <button class = "button" id="compute">Compute BMI</button>
+          </div>
+          <div class = "result">
+            <p id="bmicalculation"></p>
+          </div>
+          
+      </div>
+      <script src="/js/bmi2.js"></script>
+</body>
+</html>

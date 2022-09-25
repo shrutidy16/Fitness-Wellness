@@ -4,7 +4,8 @@
   "description": "it's a fitness and wellness webpage",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server",
+    "dev": "nodemon server"
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +13,8 @@
     "bootstrap": "^5.2.1",
     "express": "^4.18.1",
     "jquery": "^3.6.1",
-    "mdb-ui-kit": "^5.0.0"
+    "mdb-ui-kit": "^5.0.0",
+    "moment": "^2.29.4",
+    "socket.io": "^4.5.2"
   }
 }
