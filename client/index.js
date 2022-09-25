@@ -95,6 +95,9 @@ app.get("/MentalWellnessTv",function(rq,res){
 app.get("/BMIcalc",function(rq,res){
     res.sendFile(__dirname+"/bmi.html")
 });
+app.get("/BMIcalcMetric",function(rq,res){
+  res.sendFile(__dirname+"/bmi2.html")
+});
 const PORT = 5000 || process.env.PORT;
 
 server.listen(PORT, () => console.log(`Server running on port ${PORT}`));

@@ -9,7 +9,7 @@ function displayBMI() {
   var height = document.getElementById("height").value;
   var weight = document.getElementById("weight").value;
 
-  bmi = (weight / (height * height)) * 704
+   bmi = weight / (height * height)
   bmi = bmi.toFixed(1)
   if(bmi < 18.5){
     result = 'underweight'
