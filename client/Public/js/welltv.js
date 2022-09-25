@@ -4,17 +4,17 @@ $(document).ready(function() {
     let powerUp = false;
     let id;
     let catArr = [
-      "Pilates workout",
-      "Yoga full body",
-      "Strength workout",
-      "Cardio workout ",
-      "Stretching exercises",
-      "Dance workout at home",
-      "Zumba workout",
-      "Dumbbell workout",
-      "Hiit workout",
-      "Pull workout at Home",
-      "Push workout at home"
+      "meditation music",
+      "Calm music",
+      "Guided meditation",
+      "Meditation for stress ",
+      "Meditation for sleep",
+      "Nature sound",
+      "Meditation for positivity",
+      "Sound bath for positivity",
+      "Affirmations ",
+      "Affirmations for health ",
+      "Motivational Speech English"
     ];
     let videos = [];
     let channelArr = [];
