@@ -24,6 +24,18 @@
     width: 100%;
 }
 
+#overlayText {
+ position:absolute;
+  top:50%;
+  left:20%;
+  z-index:1;
+}
+
+#topText {
+  color: white;
+  font-size: 20px;
+  align-self: center;
+}
         </style>
     </head>
 
@@ -34,14 +46,17 @@
 <div id="home"> 
     <video autoplay muted loop id="myVideo">
         <source src="/video/sunset.mp4" type="video/mp4" />
+        
+             
       </video>
+     
       
     <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong">
     <!-- Container wrapper -->
     <div class="container-fluid">
       <!-- Navbar brand -->
-      <a class="navbar-brand text-dark" href="#">StayFit</a>
+      <a class="navbar-brand text-dark" href="/">StayFit</a>
   
       <!-- Toggle button -->
     <button
@@ -73,6 +88,9 @@
           <li class="nav-item">
             <a class="nav-link text-dark  "href="/BMIcalc">BMI Calculator</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark  "href="https://docs.google.com/forms/d/e/1FAIpQLSeFXxP-V_ZSfGhzzK4NNyIWPG7yFsK4UE4O5pIGBd-TBAk_Mw/viewform?usp=pp_url">Get a Reminder</a>
+          </li>
         </ul>
         <!-- Left links -->
       </div>
@@ -81,8 +99,7 @@
     <!-- Container wrapper -->
   </nav>
   <!-- Navbar -->
-  
-           
+      
     </div>
           <script>var video = document.getElementById("myVideo");</script>
           <script
