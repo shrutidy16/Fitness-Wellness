@@ -11,12 +11,77 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Anonymous Chat</title>
+    <title>Hangout</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css"rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+         
+#home {
+  height: 100%;
+  width: 100%;
+  background-color: #F2AAAA;
+}
+
+      </style>
   </head>
   <body>
+
+    <div id="home"> 
+      
+        
+      <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong">
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+        <!-- Navbar brand -->
+        <a class="navbar-brand text-dark" href="/">StayFit</a>
+    
+        <!-- Toggle button -->
+      <button
+      class="navbar-toggler"
+      type="button"
+      data-mdb-toggle="collapse"
+      data-mdb-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fa fa-bars"></i>
+    </button>
+    
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Left links -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-dark" aria-current="page" href="/FitnessTv">Fitness Tv</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark"href="/MentalWellnessTv">Mental wellness Tv</a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link text-dark  "href="/hangout">Hangout</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark  "href="/BMIcalc">BMI Calculator</a>
+            </li>
+          </ul>
+          <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+    
+             
+      </div>
+            
+   
     <div class="join-container">
       <header class="join-header">
-        <h1><i class="fa fa-user-secret"></i> AnonymousChat</h1>
+        <h1><i class="fa fa-user-secret"></i> Hangout</h1>
       </header>
       <main class="join-main">
         <form action="chat.html">
@@ -33,12 +98,12 @@
           <div class="form-control">
             <label for="room">Room</label>
             <select name="room" id="room">
-              <option value="Coffee">Coffee</option>
-              <option value="Tea">Tea</option>
-              <option value="Meal">Meal</option>
-              <option value="Dessert">Dessert</option>
-              <option value="Cookies">Cookies</option>
-              <option value="Fruits">Fruits</option>
+              <option value="Coffee">Fit Hit</option>
+              <option value="Tea">DeepTalks</option>
+              <option value="Meal">Fitness Club</option>
+              <option value="Dessert">Peace Club</option>
+              <option value="Cookies">Good Thoughts</option>
+              <option value="Fruits">Fun Chat</option>
             </select>
           </div>
           <button type="submit" class="btn">
@@ -48,9 +113,16 @@
       </main>
       <div class="footer">
         <a href="https://github.com/egin10/anonymous-chat" target="_blank"
-          >&copy; egin10 .</a
+          >Stayhappy</a
         >
       </div>
     </div>
+
+    <script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"
+></script>
+<script>var video = document.getElementById("myVideo");</script>
+
   </body>
 </html>
