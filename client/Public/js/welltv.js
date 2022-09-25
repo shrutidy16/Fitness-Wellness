@@ -24,7 +24,7 @@ $(document).ready(function() {
     const crtOff = new Audio("http://www.jarrodyellets.com/sounds/CRTOff.mp3");
     const chSound = new Audio("http://www.jarrodyellets.com/sounds/chSound.mp3");
     const apiURL = "https://www.googleapis.com/youtube/v3/search";
-    const apiKey = "AIzaSyBuIIBsq9urRaWdEYTKqSjW97wkhL1CO0o";
+    const apiKey = "AIzaSyBffz6-5DP3dS1zFxqTUyTDuT-8Ji9VKSI";
     let Channel = function(channel, id, description) {
       this.channel = channel;
       this.id = id;
