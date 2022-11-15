@@ -98,6 +98,6 @@ app.get("/BMIcalc",function(rq,res){
 app.get("/BMIcalcMetric",function(rq,res){
   res.sendFile(__dirname+"/bmi2.html")
 });
-const PORT = 5000 || process.env.PORT;
+const PORT = 2000 || process.env.PORT;
 
 server.listen(PORT, () => console.log(`Server running on port ${PORT}`));

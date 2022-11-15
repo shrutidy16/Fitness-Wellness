@@ -4,8 +4,7 @@
   "description": "it's a fitness and wellness webpage",
   "main": "index.js",
   "scripts": {
-    "start": "node server",
-    "dev": "nodemon server"
+    "start": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
