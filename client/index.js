@@ -87,16 +87,16 @@ app.get("/hangout", function(req,res){
 });
 
 app.get("/FitnessTv",function(rq,res){
-    res.sendFile(__dirname+"/tv.html")
+    res.sendFile(__dirname+"/Public/tv.html")
 });
 app.get("/MentalWellnessTv",function(rq,res){
-    res.sendFile(__dirname+"/welltv.html")
+    res.sendFile(__dirname+"/Public/welltv.html")
 });
 app.get("/BMIcalc",function(rq,res){
-    res.sendFile(__dirname+"/bmi.html")
+    res.sendFile(__dirname+"/Public/bmi.html")
 });
 app.get("/BMIcalcMetric",function(rq,res){
-  res.sendFile(__dirname+"/bmi2.html")
+  res.sendFile(__dirname+"/Public/bmi2.html")
 });
 const PORT = 2000 || process.env.PORT;
 
